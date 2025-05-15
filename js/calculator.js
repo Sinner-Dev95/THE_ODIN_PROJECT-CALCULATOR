@@ -55,3 +55,11 @@ function operate(num1, num2, operator){
 }
 
 
+//DOM MANIPULATION ELEMENTS
+const container = document.querySelector('.calculator-container');
+const display = document.querySelector('.display');
+const numberButtons = document.querySelectorAll('[data-type="number"]');
+const operatorsButtons = document.querySelectorAll('[data-type="operator"]');
+const equalButton = document.querySelector('[data-type="equal"]');
+const clearButton = document.querySelector('[data-type="clear"]');
+
